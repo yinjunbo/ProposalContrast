@@ -565,7 +565,7 @@ class SSLHead(nn.Module):
 
 
         if 'class' in embeddings.keys():
-            embedding, output, neck = embeddings['cluster']
+            embedding, output, neck = embeddings['class']
             embedding = embedding.detach()
             bs = output.size(0)//2
             loss = 0
