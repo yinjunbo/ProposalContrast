@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="555b5e12-66e2-4209-a37e-7319a0e971f5" name="JD-Cloud-218">
+        <fileTransfer accessType="SFTP" host="10.111.249.218" port="22" sshConfigId="43257b32-2718-4ba4-9314-662e108976ee" sshConfig="junbo@10.111.249.218:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
