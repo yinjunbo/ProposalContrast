@@ -78,7 +78,7 @@ Please refer to [INSTALL](docs/INSTALL.md) to build the required libraries. Our 
 Currently, this repo supports the pre-training and fine-tuning on the Waymo 3D object detection dataset. Please prepare the dataset according to [WAYMO](docs/WAYMO.md).
 
 ### Training and Evaluation
- We evaluate the unsupervised pre-training performance of the 3D models in the context of LiDAR-based 3D object detection. The scripts for pre-training, fine-tuning and evluation can be found in [RUN_MODEL](docs/RUN_MODEL.md). We currently support the 3D models like [VoxelNet](configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py) and [PillarNet](configs/waymo/pp/waymo_centerpoint_pp.py).
+ We evaluate the unsupervised pre-training performance of the 3D models in the context of LiDAR-based 3D object detection. The scripts for pre-training, fine-tuning and evluation can be found in [RUN_MODEL](docs/RUN_MODEL.md). We currently support the 3D models like [VoxelNet](configs/waymo/voxelnet/waymo_centerpoint_voxelnet.py) and [PillarNet](configs/waymo/pp/waymo_centerpoint_pp.py).
 
 ## License
 
