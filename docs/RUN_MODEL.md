@@ -9,11 +9,11 @@ We would recommand distributed training with 8*32G GPUs for better results.
 bash tools/scripts/ssl_pretrain_voxel.sh pretrain_description finetune_description
 ```
 
-       ```bash
-       # pretrain and fientune PillarNet
-       bash tools/scripts/ssl_pretrain_pillar.sh pretrain_description finetune_description
-       ```
-       Note that the fine-tuning command is also contained in above scripts. 
+```bash
+# pretrain and fientune PillarNet
+bash tools/scripts/ssl_pretrain_pillar.sh pretrain_description finetune_description
+```
+Note that the fine-tuning command is also contained in above scripts. 
 
 * Use the following command to obtain the baseline results that are trained from random initialization. TASK_DESC indicates the task name. 
 ```bash
@@ -21,10 +21,10 @@ bash tools/scripts/ssl_pretrain_voxel.sh pretrain_description finetune_descripti
 bash tools/scripts/train_voxel_sup.sh TASK_DESC
 ```
 
-       ```bash
-       # train PillarNet baseline
-       bash tools/scripts/train_pillar_sup.sh TASK_DESC
-       ```
+```bash
+# train PillarNet baseline
+bash tools/scripts/train_pillar_sup.sh TASK_DESC
+```
 
 ### Evaluation Scripts.
 Use this command to inference a model:
