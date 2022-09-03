@@ -29,7 +29,7 @@ If you find our project is helpful for you, please cite:
 
 | Model                      | Aspect      | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH  |  
 |----------------------------|-------------|--------|--------|--------|-------|
-| CenterPoint (PillarNet)    | Scratch     | 60.67  | 51.55  | 53.41  | 55.21 |  
+| CenterPoint (PillarNet)    | Scratch     | 60.67  | 51.55  | 55.28  | 55.83 |  
 | ProposalContrast (PillarNet) | Fine-tuning | 63.03    | 53.16    | 57.31    | 57.83   | 
 
 | Model                       | Aspect      | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH |  
