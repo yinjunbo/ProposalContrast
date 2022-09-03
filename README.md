@@ -24,7 +24,7 @@ If you find our project is helpful for you, please cite:
 ## Main Results
 
 #### 3D Detection on Waymo validation set.
-* We provide 3d detection results of the fine-tuned [PillarNet](configs/waymo/pp/waymo_centerpoint_pp.py) and [VoxelNet](configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py) following the OpenPCDet learning schedule with 20% data (~32k frames).
+* We provide 3D detection results of the fine-tuned [PillarNet](configs/waymo/pp/waymo_centerpoint_pp.py) and [VoxelNet](configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py) following the OpenPCDet learning schedule with 20% data (~32k frames).
 * All the models are trained with 8 Tesla V100 GPUs.
 
 | Model                      | Aspect      | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH  |  
