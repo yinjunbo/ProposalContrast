@@ -54,14 +54,15 @@ python tools/create_data.py waymo_data_prep --root_path=data/Waymo --split train
 # Prepare the training (fine-tuning) dataset, where we align the training samples with OpenPCDet
 python tools/create_data.py waymo_data_prep --root_path=data/Waymo --split pcdet_train
 
+# Prepare the validation dataset 
+python tools/create_data.py waymo_data_prep --root_path=data/Waymo --split val 
+
 # For data-efficient 3D object detection (optional, for the puerpose of making downsampled gt database)
 python tools/create_data.py waymo_data_prep --root_path=data/Waymo --split train --interval=100
 python tools/create_data.py waymo_data_prep --root_path=data/Waymo --split train --interval=20
 python tools/create_data.py waymo_data_prep --root_path=data/Waymo --split train --interval=10
 python tools/create_data.py waymo_data_prep --root_path=data/Waymo --split train --interval=2
 
-# Prepare the validation dataset 
-python tools/create_data.py waymo_data_prep --root_path=data/Waymo --split val 
 
 ```
 These scripts can be also found in ```~/ProposalContrast/scripts/create_data.sh```. The final data infos are as follows:
