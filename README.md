@@ -38,7 +38,7 @@ If you find our project is helpful for you, please cite:
 | ProposalContrast (VoxelNet) | Fine-tuning | 64.14  | 60.07  | 67.31  | 63.84 | 
 
 #### Data-efficient 3D Detection on Waymo.
-* We uniformly downsample the Waymo training data to 1%, 5%, 10%, 50% and 100%, and report the results of [CenterPoint (VoxelNet)](configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py) based on 1x learning schedule.
+* We uniformly downsample the Waymo training data to 5%, 10%, 20%, 50%, and report the results of [CenterPoint (VoxelNet)](configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py) based on 1x learning schedule.
 * All the models are trained with 8 Tesla V100 GPUs.
 
 Coming soon.
