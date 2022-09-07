@@ -41,16 +41,16 @@ If you find our project is helpful for you, please cite:
 * We uniformly downsample the Waymo training data to 5%, 10%, 20%, 50%, and report the results of [CenterPoint (VoxelNet)](configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py) based on 1x learning schedule.
 * All the models are trained with 8 Tesla V100 GPUs.
 
-| Model                      | Aspect                | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH  |  
+| Model(VoxelNet)                     | Aspect                | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH  |  
 |-----------------------------|-----------------------|--------|--------|--------|-------|
-| CenterPoint（VoxelNet）      | 5%, Scratch      | 41.56  | 34.34  | 44.46  | 40.12 |  
-| ProposalContrast（VoxelNet） | 5%, Fine-tuning   |  50.66 | 43.69  | 54.46  | 49.60 |   
-| CenterPoint（VoxelNet）      | 10%, Scratch      | 52.59  | 44.28  | 55.97  | 50.95 |  
-| ProposalContrast（VoxelNet） | 10%, Fine-tuning   | 57.43  | 51.26  | 59.77  | 56.15 |   
-| CenterPoint （VoxelNet）      | 20%, Scratch     | 58.43  | 51.02  | 62.29  | 57.25 |  
-| ProposalContrast （VoxelNet） | 20%, Fine-tuning  | 61.54  | 56.05  | 64.4  | 60.58 |   
-| CenterPoint（VoxelNet）      | 50%, Scratch     | 62.87  | 58.20  | 66.60  | 62.56 |  
-| ProposalContrast （VoxelNet） | 50%, Fine-tuning  | 63.96  | 60.16  | 67.49  | 63.87 |   
+| CenterPoint      | 5%, Scratch      | 41.56  | 34.34  | 44.46  | 40.12 |  
+| ProposalContrast | 5%, Fine-tuning   |  50.66 | 43.69  | 54.46  | 49.60 |   
+| CenterPoint      | 10%, Scratch      | 52.59  | 44.28  | 55.97  | 50.95 |  
+| ProposalContrast | 10%, Fine-tuning   | 57.43  | 51.26  | 59.77  | 56.15 |   
+| CenterPoint      | 20%, Scratch     | 58.43  | 51.02  | 62.29  | 57.25 |  
+| ProposalContrast | 20%, Fine-tuning  | 61.54  | 56.05  | 64.4  | 60.58 |   
+| CenterPoint      | 50%, Scratch     | 62.87  | 58.20  | 66.60  | 62.56 |  
+| ProposalContrast | 50%, Fine-tuning  | 63.96  | 60.16  | 67.49  | 63.87 |   
 
 
 ## Use ProposalContrast
