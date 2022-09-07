@@ -22,6 +22,8 @@ PORT=$((8000 + RANDOM %57535))
 # train
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=$PORT  ./tools/train.py  configs/waymo/voxelnet/waymo_centerpoint_voxelnet.py --work_dir=$VOXEL_WORK_DIR --pretrained_model=$PRETRAIN_MODEL
 
+# CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=$PORT  ./tools/train.py  configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py --work_dir=$VOXEL_WORK_DIR --pretrained_model=$PRETRAIN_MODEL
+
 # eval
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=$PORT  ./tools/dist_test.py  configs/waymo/voxelnet/waymo_centerpoint_voxelnet.py  --work_dir=$VOXEL_WORK_DIR --checkpoint=$VOXEL_WORK_DIR/latest.pth --speed_test
 

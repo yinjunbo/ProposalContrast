@@ -3,7 +3,7 @@ import logging
 
 from det3d.utils.config_tool import get_downsample_factor
 
-DATA_DS_RATIO = [100, 20, 10, 2][0]  # 1%, 5%, 10%, 50%
+DATA_DS_RATIO = [20, 10, 5, 2][0]  # 5%, 10%, 20%, 50%
 
 tasks = [
     dict(num_class=3, class_names=['VEHICLE', 'PEDESTRIAN', 'CYCLIST']),
