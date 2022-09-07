@@ -41,7 +41,7 @@ If you find our project is helpful for you, please cite:
 * We uniformly downsample the Waymo training data to 5%, 10%, 20%, 50%, and report the results of [CenterPoint (VoxelNet)](configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py) based on 1x learning schedule.
 * All the models are trained with 8 Tesla V100 GPUs.
 
-| Model (VoxelNet)                     | Paradigm                | Veh_L2 | Ped_L2 | Cyc_L2 | Overall  |  
+| Model                     | Paradigm                | Veh_L2 | Ped_L2 | Cyc_L2 | Overall  |  
 |-----------------------------|-----------------------|--------|--------|--------|-------|
 | CenterPoint      | 5%, Scratch      | 41.56  | 34.34  | 44.46  | 40.12 |  
 | ProposalContrast | 5%, Fine-tuning   |  50.66 | 43.69  | 54.46  | 49.60 |   
