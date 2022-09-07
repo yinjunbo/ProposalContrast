@@ -48,7 +48,7 @@ If you find our project is helpful for you, please cite:
 | CenterPoint      | 10%, Scratch      | 52.59  | 44.28  | 55.97  | 50.95 |  
 | ProposalContrast | 10%, Fine-tuning   | 57.43  | 51.26  | 59.77  | 56.15 |   
 | CenterPoint      | 20%, Scratch     | 58.43  | 51.02  | 62.29  | 57.25 |  
-| ProposalContrast | 20%, Fine-tuning  | 61.54  | 56.05  | 64.4  | 60.58 |   
+| ProposalContrast | 20%, Fine-tuning  | 61.54  | 56.05  | 64.14  | 60.58 |   
 | CenterPoint      | 50%, Scratch     | 62.87  | 58.20  | 66.60  | 62.56 |  
 | ProposalContrast | 50%, Fine-tuning  | 63.96  | 60.16  | 67.49  | 63.87 |   
 
