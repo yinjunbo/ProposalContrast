@@ -27,12 +27,12 @@ If you find our project is helpful for you, please cite:
 * We provide 3D detection results of the fine-tuned [PillarNet](configs/waymo/pp/waymo_centerpoint_pp.py) and [VoxelNet](configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py) following the OpenPCDet learning schedule with 20% data (~32k frames).
 * All the models are trained with 8 Tesla V100 GPUs.
 
-| Model                      | Aspect      | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH  |  
+| Model                      | Paradigm      | Veh_L2 | Ped_L2 | Cyc_L2 | Overall  |  
 |----------------------------|-------------|--------|--------|--------|-------|
 | CenterPoint (PillarNet)    | Scratch     | 60.67  | 51.55  | 55.28  | 55.83 |  
 | ProposalContrast (PillarNet) | Fine-tuning | 63.03    | 53.16    | 57.31    | 57.83   | 
 
-| Model                       | Aspect      | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH |  
+| Model                       | Paradigm      | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH |  
 |-----------------------------|-------------|--------|--------|--------|------|
 | CenterPoint (VoxelNet)      | Scratch     | 63.10  | 58.66  | 66.54  | 62.77 |  
 | ProposalContrast (VoxelNet) | Fine-tuning | 64.14  | 60.07  | 67.31  | 63.84 | 
@@ -41,7 +41,7 @@ If you find our project is helpful for you, please cite:
 * We uniformly downsample the Waymo training data to 5%, 10%, 20%, 50%, and report the results of [CenterPoint (VoxelNet)](configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py) based on 1x learning schedule.
 * All the models are trained with 8 Tesla V100 GPUs.
 
-| Model(VoxelNet)                     | Aspect                | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH  |  
+| Model (VoxelNet)                     | Paradigm                | Veh_L2 | Ped_L2 | Cyc_L2 | Overall  |  
 |-----------------------------|-----------------------|--------|--------|--------|-------|
 | CenterPoint      | 5%, Scratch      | 41.56  | 34.34  | 44.46  | 40.12 |  
 | ProposalContrast | 5%, Fine-tuning   |  50.66 | 43.69  | 54.46  | 49.60 |   
