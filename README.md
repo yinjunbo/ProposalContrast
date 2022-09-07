@@ -41,32 +41,26 @@ If you find our project is helpful for you, please cite:
 * We uniformly downsample the Waymo training data to 5%, 10%, 20%, 50%, and report the results of [CenterPoint (VoxelNet)](configs/waymo/voxelnet/waymo_centerpoint_voxelnet_1x.py) based on 1x learning schedule.
 * All the models are trained with 8 Tesla V100 GPUs.
 
-Coming soon.
+ | Model                       | Aspect                | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH  |  
 
-[//]: # ()
-[//]: # ( | Model                       | Aspect                | Veh_L2 | Ped_L2 | Cyc_L2 | MAPH  |  )
+|-----------------------------|-----------------------|--------|--------|--------|-------|
 
-[//]: # (|-----------------------------|-----------------------|--------|--------|--------|-------|)
+| CenterPoint &#40;VoxelNet&#41;      | 5%, <br/>Scratch      | 41.56  | 34.34  | 44.46  | 40.12 |  
 
-[//]: # (| CenterPoint &#40;VoxelNet&#41;      | 1%, <br/>Scratch      | 63.10  | 58.66  | 66.54  | 62.77 |  )
+| ProposalContrast &#40;VoxelNet&#41; | 5%,<br/>Fine-tuning   |  50.66 | 43.69  | 54.46  | 49.60 |   
 
-[//]: # (| ProposalContrast &#40;VoxelNet&#41; | 1%,<br/>Fine-tuning   | 64.14  | 60.07  | 67.31  | 63.84 |   )
+| CenterPoint &#40;VoxelNet&#41;      | 10%, <br/>Scratch      | 52.59  | 44.28  | 55.97  | 50.95 |  
 
-[//]: # ( | CenterPoint &#40;VoxelNet&#41;      | 5%, <br/>Scratch      | 63.10  | 58.66  | 66.54  | 62.77 |  )
+| ProposalContrast &#40;VoxelNet&#41; | 10%,<br/>Fine-tuning   | 57.43  | 51.26  | 59.77  | 56.15 |   
 
-[//]: # ( | ProposalContrast &#40;VoxelNet&#41; | 5%,<br/>Fine-tuning   | 64.14  | 60.07  | 67.31  | 63.84 |   )
+| CenterPoint &#40;VoxelNet&#41;      | 20%, <br/>Scratch     | 58.43  | 51.02  | 62.29  | 57.25 |  
 
-[//]: # ( | CenterPoint &#40;VoxelNet&#41;      | 10%, <br/>Scratch     | 63.10  | 58.66  | 66.54  | 62.77 |  )
+| ProposalContrast &#40;VoxelNet&#41; | 20%,<br/>Fine-tuning  | 61.54  | 56.05  | 64.4  | 60.58 |   
 
-[//]: # ( | ProposalContrast &#40;VoxelNet&#41; | 10%,<br/>Fine-tuning  | 64.14  | 60.07  | 67.31  | 63.84 |   )
+| CenterPoint &#40;VoxelNet&#41;      | 50%, <br/>Scratch     | 62.87  | 58.20  | 66.60  | 62.56 |  
 
-[//]: # ( | CenterPoint &#40;VoxelNet&#41;      | 50%, <br/>Scratch     | 63.10  | 58.66  | 66.54  | 62.77 |  )
+| ProposalContrast &#40;VoxelNet&#41; | 50%,<br/>Fine-tuning  | 63.96  | 60.16  | 67.49  | 63.87 |   
 
-[//]: # ( | ProposalContrast &#40;VoxelNet&#41; | 50%,<br/>Fine-tuning  | 64.14  | 60.07  | 67.31  | 63.84 |   )
-
-[//]: # ( | CenterPoint &#40;VoxelNet&#41;      | 100%, <br/>Scratch    | 63.10  | 58.66  | 66.54  | 62.77 |  )
-
-[//]: # ( | ProposalContrast &#40;VoxelNet&#41; | 100%,<br/>Fine-tuning | 64.14  | 60.07  | 67.31  | 63.84 |   )
 
 ## Use ProposalContrast
 
